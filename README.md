@@ -1,34 +1,39 @@
-
-Interactive HTML/JS/CSS invoice template for service billing. ENG/LV
 # Interactive HTML Invoice Bill Template
 
-This repository contains an interactive HTML invoice bill template for service providers. The HTML file (`index.html`) provides a structured layout for generating invoices.
+This repository offers an interactive HTML invoice bill template, a versatile solution designed to generate customizable and interactive invoices using HTML, CSS, and JavaScript.
 
-## Contents
+## Features
 
-- **CSS**: Folder containing stylesheets (`style.css` and `print.css`) for formatting the invoice layout and its print version.
-- **JS**: Contains JavaScript files (`jquery-1.3.2.min.js`, `example.js`, `apmaksa.js`, `dropdownBackground.js`) for interactive functionalities.
-- **Invoice Template**: The `index.html` file is the main invoice template that structures and presents the invoice details.
+- **Customizable Invoice Details**: Easily modify the provider's information, recipient's details, and other essential invoice elements directly within the HTML file.
+- **Dynamic Payment Status**: The payment status dynamically adapts based on user selection (`Sagatavots Apmaksai` or `APMAKSĀTS`) within the invoice.
+- **Interactive Dropdown**: The dropdown enables users to select options, triggering background image changes accordingly.
 
-## Description
+## File Structure
 
-The `index.html` file includes:
+- `index.html`: Houses the primary HTML structure for the interactive invoice bill template.
+- `apmaksa.js`: Manages the dynamic alteration of the payment status based on user selection.
+- `dropdownBackground.js`: Controls the background image change concerning the dropdown selection.
+- `example.js`: Contains functions for date printing and number rounding.
+- `saglabatPdf.js`: Handles functionality to save the invoice as a PDF.
+- `style.css`: Provides comprehensive styling for the entire invoice template.
 
-- Sections for service provider and customer details.
-- Information fields for invoice number, service date, and total payment.
-- Itemized list for services provided, including description, unit price, quantity, and total price.
-- Additional details about payment methods and terms.
-- JavaScript functionality for toggling discount display and dropdown selection.
+## Usage
 
-### Notes
+1. Open `index.html` in a web browser to experience the interactive invoice template.
+2. Customize invoice details by editing relevant sections within `index.html`.
+3. Interact with the payment status dropdown to witness dynamic changes.
+4. Utilize the dropdown to alter the invoice template's background image.
 
-- Ensure to customize the placeholder texts and details within the HTML file for specific use cases.
-- The template includes instructions and placeholders for payment and service details, ready for customization.
+## How to Use
 
-### Usage
+- Clone this repository and open the `index.html` file in a web browser to utilize the template.
+- Update necessary details within the HTML file to generate personalized invoices.
+- Adapt functionality or styling as required to suit specific needs.
 
-This invoice template can be utilized by service providers to generate interactive invoices, allowing for customization of details and easy handling of billing information.
+## Contributing
 
----
+Contributions to enhance or introduce features to this interactive invoice template are encouraged! Feel free to submit pull requests or open issues for suggestions and improvements.
 
-_This README.md file serves as documentation for the HTML invoice bill template._
+## License
+
+This project is licensed under the [MIT License](LICENSE).
